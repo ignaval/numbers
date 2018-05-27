@@ -1,0 +1,16 @@
+{
+  "name": "numbers",
+  "version": "1.0.0",
+  "description": "Own numbers and battle other numbers on the ethereum blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ignacio Valdivieso",
+  "license": "ISC",
+  "dependencies": {
+    "ganache-cli": "^6.1.0",
+    "openzeppelin-zos": "^1.9.1",
+    "zos-lib": "^1.0.0"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "contracts": {
+    "Numbers": {
+      "address": "0xd0b2d65130c88aed644f19c0b6af01527f11bf0e",
+      "bytecodeHash": "c7427b3fec9dd1ed344481270d87b1d047e27f667da272af9a0e30e04b23e299"
+    },
+    "Match": {
+      "address": "0x4b4804a4d865a6e35eed46b48e83e75b421039c9",
+      "bytecodeHash": "b7159b64019e71ef2f19a4b6caea4fa2e924d017d289c6fb5234d0a8065d4d2c"
+    }
+  },
+  "proxies": {
+    "Numbers": [
+      {
+        "address": "0x95ba67ce223bb3b4dccecf501909002cca5981b3",
+        "version": "0.1.0",
+        "implementation": "0x17d59f5db6b5e79ea9f9ece2e8cd2d3a0c382ed0"
+      },
+      {
+        "address": "0x225bba0cb15ebbd6b2278a9dcbd22019cfaaa18e",
+        "version": "0.1.0",
+        "implementation": "0x17d59f5db6b5e79ea9f9ece2e8cd2d3a0c382ed0"
+      }
+    ],
+    "MintableERC721Token": [
+      {
+        "address": "0x5e68b8ee04c56772bc143cef85dd23f50b610b24",
+        "version": "0.1.0",
+        "implementation": "0xb644309903781fe46ed0b944bab5223d718df1be"
+      },
+      {
+        "address": "0x58111131491b8c892ce6504aae00883d7b48e109",
+        "version": "0.1.0",
+        "implementation": "0x6725e021026d245229e60712c334d2a737e0c38f"
+      }
+    ],
+    "Match": [
+      {
+        "address": "0x340c473e8619dcfb12fc2fe6de6cc24b56617ab5",
+        "version": "0.1.0",
+        "implementation": "0x4b4804a4d865a6e35eed46b48e83e75b421039c9"
+      },
+      {
+        "address": "0x40471ffbef41ffc7aee8fec71120227d1405f0cf",
+        "version": "0.1.0",
+        "implementation": "0x4b4804a4d865a6e35eed46b48e83e75b421039c9"
+      }
+    ]
+  },
+  "stdlib": {
+    "address": "0x8c7818701444c4567508a5c81dd862e267b320fc",
+    "customDeploy": true,
+    "name": "openzeppelin-zos",
+    "version": "1.9.1"
+  },
+  "app": {
+    "address": "0x17ff677cbee42393a9a27ef4cb692be01705256c"
+  },
+  "version": "0.1.0",
+  "package": {
+    "address": "0x7377331ca89403510c1a7d686a7d74cda3e121ae"
+  },
+  "provider": {
+    "address": "0xf06b88cb024898aeeb850871df31ca64098a64db"
+  }
+}
